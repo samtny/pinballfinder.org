@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px;
+}
+
+.content > div {
+  display: none;
+}
+
+#map-canvas {
+  height: 182px;
+  display: none;
+}
+
+.link {
+  cursor: pointer;
+}
