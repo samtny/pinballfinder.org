@@ -8,6 +8,9 @@ requirejs.config({
   shim: {
     'bootstrap': {
       deps: ['jquery']
+    },
+    'geolocationmarker': {
+      deps: ['async!maps']
     }
   }
 });
