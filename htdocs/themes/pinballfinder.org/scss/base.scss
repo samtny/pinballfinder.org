@@ -1,0 +1,59 @@
+@import "normalize";
+@import "zen";
+
+/* http://paletton.com/#uid=55z0u0kNIdTbCppgBmSrPeMz+aT */
+$color: #fff;
+$background-color: #6a000c;
+
+$break-sm: 440px;
+$break-lg: 1000px;
+
+body {
+  font: 100% HelveticaNeue-Light, sans-serif;
+  color: $color;
+  background-color: $background-color;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+@media screen and (max-width: $break-sm) {
+  .container {
+    $zen-column-count: 2;
+    $zen-gutter-width: 10px;
+    @include zen-grid-container;
+
+    margin: 0 10px;
+  }
+
+  header, #main, footer {
+    @include zen-clear();
+    @include zen-grid-item(1, 1);
+  }
+}
+
+@media screen and (min-width: $break-lg) {
+  .container {
+    $zen-column-count: 3;
+    $zen-gutter-width: 10px;
+
+    width: $break-lg;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header, footer {
+
+  }
+}
