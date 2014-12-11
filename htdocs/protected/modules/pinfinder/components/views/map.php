@@ -1,0 +1,3 @@
+<p>
+Pinfinder map...
+</p>

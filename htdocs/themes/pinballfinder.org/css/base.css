@@ -597,32 +597,32 @@ th {
 }
 
 /* http://paletton.com/#uid=55z0u0kNIdTbCppgBmSrPeMz+aT */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000314}}
 body {
   font: 100% HelveticaNeue-Light, sans-serif;
   color: #fff;
   background-color: #6a000c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000320}}
 h1 {
   text-transform: uppercase;
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000325}}
 a {
   color: #fff;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000330}}
 nav ul li {
   display: inline-block;
 }
 
 @media screen and (max-width: 440px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000335}}
   .container {
     margin: 0 10px;
   }
@@ -636,7 +636,7 @@ nav ul li {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000343}}
   header, #main, footer {
     clear: left;
     float: left;
@@ -651,12 +651,87 @@ nav ul li {
     box-sizing: border-box;
     word-wrap: break-word;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000348}}
+  header {
+    text-align: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000352}}
+  footer {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 999px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000358}}
+  .container {
+    margin: 0 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.1\.0\/gems\/zen-grids-1\.4\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000345}}
+  .container:before, .container:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.1\.0\/gems\/zen-grids-1\.4\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  .container:after {
+    clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000366}}
+  header, #main, footer {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000371}}
+  header {
+    text-align: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000375}}
+  footer {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000381}}
   .container {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.1\.0\/gems\/zen-grids-1\.4\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000345}}
+  .container:before, .container:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.1\.0\/gems\/zen-grids-1\.4\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000350}}
+  .container:after {
+    clear: both;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/sthompson\/Documents\/pinballfinder\.org\/htdocs\/themes\/pinballfinder\.org\/scss\/base\.scss}line{font-family:\0000390}}
+  header, #main, footer {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
   }
 }

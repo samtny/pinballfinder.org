@@ -5,8 +5,11 @@
 $color: #fff;
 $background-color: #6a000c;
 
-$break-sm: 440px;
-$break-lg: 1000px;
+$max-width-sm: 440px;
+$min-width-md: 441px;
+$max-width-md: 999px;
+$min-width-lg: 1000px;
+$max-width-lg: $min-width-lg;
 
 body {
   font: 100% HelveticaNeue-Light, sans-serif;
@@ -28,7 +31,7 @@ nav ul li {
   display: inline-block;
 }
 
-@media screen and (max-width: $break-sm) {
+@media screen and (max-width: $max-width-sm) {
   .container {
     $zen-column-count: 2;
     $zen-gutter-width: 10px;
@@ -41,19 +44,51 @@ nav ul li {
     @include zen-clear();
     @include zen-grid-item(1, 1);
   }
+
+  header {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
 
-@media screen and (min-width: $break-lg) {
+@media screen and (min-width: $min-width-md) and (max-width: $max-width-md) {
+  .container {
+    $zen-column-count: 2;
+    $zen-gutter-width: 10px;
+    @include zen-grid-container;
+
+    margin: 0 10px;
+  }
+
+  header, #main, footer {
+    @include zen-clear();
+    @include zen-grid-item(1, 1);
+  }
+
+  header {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $min-width-lg) {
   .container {
     $zen-column-count: 3;
     $zen-gutter-width: 10px;
+    @include zen-grid-container;
 
-    width: $break-lg;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    max-width: $max-width-lg;
   }
 
-  header, footer {
-
+  header, #main, footer {
+    @include zen-clear();
+    @include zen-grid-item(1, 1);
   }
 }
