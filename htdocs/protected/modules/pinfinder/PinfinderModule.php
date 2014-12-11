@@ -2,6 +2,8 @@
 
 class PinfinderModule extends CWebModule
 {
+  public $api_key;
+
 	public function init()
 	{
 		// this method is called when the module is being created

@@ -26,7 +26,15 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-    'pinfinder',
+    'pinfinder' => array(
+      'api_key' => 'AIzaSyCMWL8VtaTA5ORZro3vPvwfZxWel1sgwPg',
+      'components' => array(
+        'map' => array(
+          'class' => 'Map',
+          'api_key' => 'ABQIAAAAbEjCGGXsEdJVxI-QA3Eg4BRRyy7KXpN1XpYowz5dc4BI0Cc5gxSWj5fiwxmJWPJLutmyCOse8FkkmQ',
+        ),
+      ),
+    ),
 	),
 
   'theme' => 'pinballfinder.org',
